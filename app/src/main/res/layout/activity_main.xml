@@ -58,7 +58,7 @@
             android:gravity="center"
             android:hint="First term:"
             android:inputType="numberDecimal|numberSigned"
-            android:textSize="24sp" />
+            android:textSize="16sp" />
 
         <Space
             android:layout_width="0dp"
@@ -74,13 +74,8 @@
             android:gravity="center"
             android:hint="Difference/\nMultiplier:"
             android:inputType="numberDecimal|numberSigned"
-            android:textSize="24sp" />
+            android:textSize="16sp" />
     </LinearLayout>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
 
     <Button
         android:id="@+id/results"
@@ -93,5 +88,5 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8" />
+        android:layout_weight="5" />
 </LinearLayout>
